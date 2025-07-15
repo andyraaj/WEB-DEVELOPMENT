@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+
+                  *{
+                      margin: 0;
+                      padding: 0;
+                      box-sizing: border-box;
+                  }
+                .card{
+                  border=5px solid black;
+                  width: 300px;
+                  height: 400px;
+                  border-radius: 10px;
+                  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+                  display: flex;
+                  position: fixed;
+                  justify-content: center;
+                  align-items: center;
+
+                }
+                .photo{
+                  background-image: url(pexels-cesarperez209-733745.webp);
+                             background-size: cover;
+                  width:270px;
+                  height: 190px;
+                  margin: 0px;
+                  padding: 0px;
+                  top: 2px;
+                  border-radius: 10px 10px 10px 10px;
+                  position: absolute;
+                  top: 5px;
+                  left: auto;
+                }
+                .text1{
+
+                  top: 200px;
+                  left: 18px;
+                  position: absolute;
+                }
+                .text1 p{
+          display: inline-block;
+          border: 2px solid grey;
+          border-radius: 30px;
+          padding: 2px 5px;
+          font-size: 12px;
+          font-family: Poppins, sans-serif;
+          }
+          .text2{
+                    position: absolute;
+                    top: 230px;
+                    left: 18px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: rgb(35, 35, 35);
+                    font-family: Poppins, sans-serif;
+                    }
+      .text3{
+                    position: absolute;
+                    top: 260px;
+                    left: 18px;
+                    font-size: 12px;
+                    color: rgb(100, 100, 100);
+                    font-family: Poppins, sans-serif;
+                    width: 240px;
+                    line-height: 1.5;
+            }
+            .text4{
+                background-color: rgb(174, 199, 246);
+                border-radius: 50px;
+                margin: 10px;
+                padding: auto;
+                border: 10px solid rgb(174, 199, 246);
+                position: absolute;
+                top: 340px;
+                font-size: 12px;
+                font-family: Poppins, sans-serif;
+                color: royalblue;
+
+            }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="photo"></div>
+      <div class="text1">
+        <p>Nature</p>
+        <p>Lake</p>
+      </div>
+      <div class="text2">Lago di Braies</div>
+      <div class="text3">
+        <p>
+          Lorem ipsum commodi dicta fugiat necessitatibus culpa, quo nam porro,
+          consectetur officia voluptates nemo tempora. Maxime ea consequuntur
+          accusamus.
+        </p>
+      </div>
+      <div class="text4"><p>Read more</p></div>
+    </div>
+  </body>
+</html>
