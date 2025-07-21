@@ -1,0 +1,73 @@
+
+*{
+        font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("bg.jpg");
+    height: 70vh;
+    position: relative;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.33);
+    position: absolute;
+    
+}
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    position: relative;
+    /* color: red; */
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+
+    top: 120px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    height: 30%;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding: 30px;
+    text-align: center;
+}
+.hero >:first-child{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        color: white;
+}
+.hero >:nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.hero >:nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
